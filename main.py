@@ -8,6 +8,9 @@ d = dict()
 with open("input.txt") as in_file:
     for line in in_file:
         line = remove_spaces(line.strip())
+        if line.find('Trade') == -1 or line.find('channel') == -1 or line.find('Exchange') == -1:
+            continue
+
         idx = line.find(':')
         channel = line[:idx]
         line = line[idx+2:]

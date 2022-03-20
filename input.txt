@@ -1,12 +1,30 @@
+决赛端口（第一轮放送）
+Trade1 -> Exchange1
 channel1:  [ Trade1:60230 - Exchange1:60320 ] 
 channel2:  [ Trade1:60231 - Exchange1:60321 ] 
-channel3:  [ Trade1:60232 - Exchange1:60322 ]
+channel3:  [ Trade1:60232 - Exchange1:60322 ] 
+
+Trade1 -> Exchange2
 channel4: [ Trade1:59000 - Exchange2:58000 ] 
 channel5: [ Trade1:59010 - Exchange2:57090 ] 
 channel6: [ Trade1:59020 - Exchange2:57080 ] 
+
+Trade2 -> Exchange1
 channel7: [ Trade2:61021 - Exchange1:63477 ] 
 channel8: [ Trade2:61022 - Exchange1:63478 ] 
 channel9: [ Trade2:61023 - Exchange1:63479 ] 
+
+Trade2 -> Exchange2
 channel10: [ Trade2:55055 - Exchange2:50123 ] 
 channel11: [ Trade2:55054 - Exchange2:50124 ] 
 channel12: [ Trade2:55053 - Exchange2:50125 ]
+
+说明：剩余4轮端口发放，通过直播及决赛微信群同步。
+
+
+
+——————————
+九坤投资量化联赛工作组
+九坤投资（北京）有限公司
+地址：北京市海淀区中关村东路1号清华科技园8号楼B座26层
+邮编：100084 
