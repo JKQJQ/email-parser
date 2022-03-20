@@ -1,0 +1,66 @@
+############ Trader1 start-server.sh ##########
+# Trade1@Trade1->Exchange1
+LISTEN_PORT_1=60230
+LISTEN_PORT_2=60231
+LISTEN_PORT_3=60232
+
+# Trade1@Trade1->Exchange2
+LISTEN_PORT_4=59000
+LISTEN_PORT_5=59010
+LISTEN_PORT_6=59020
+
+
+############# Trader2 start-server.sh ##############
+# Trade2@Trade2->Exchange1
+LISTEN_PORT_1=61021
+LISTEN_PORT_2=61022
+LISTEN_PORT_3=61023
+
+# Trade2@Trade2->Exchange2
+LISTEN_PORT_4=55055
+LISTEN_PORT_5=55054
+LISTEN_PORT_6=55053
+
+
+############# Exchange1 start-server.sh ##############
+# Trade1->Exchange1
+# Trade1
+SERVER_PORT_1=60230
+SERVER_PORT_2=60231
+SERVER_PORT_3=60232
+# Exchange1
+LOCAL_PORT_1=60320
+LOCAL_PORT_2=60321
+LOCAL_PORT_3=60322
+
+# Trade2->Exchange1
+# Trade2
+SERVER_PORT_4=61021
+SERVER_PORT_5=61022
+SERVER_PORT_6=61023
+# Exchange1
+LOCAL_PORT_4=63477
+LOCAL_PORT_5=63478
+LOCAL_PORT_6=63479
+
+
+############# Exchange2 start-server.sh ##############
+# Trade1->Exchange2
+# Trade1
+SERVER_PORT_1=59000
+SERVER_PORT_2=59010
+SERVER_PORT_3=59020
+# Exchange2
+LOCAL_PORT_1=58000
+LOCAL_PORT_2=57090
+LOCAL_PORT_3=57080
+
+# Trade2->Exchange2
+# Trade2
+SERVER_PORT_4=55055
+SERVER_PORT_5=55054
+SERVER_PORT_6=55053
+# Exchange2
+LOCAL_PORT_4=50123
+LOCAL_PORT_5=50124
+LOCAL_PORT_6=50125
